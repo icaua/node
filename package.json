@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "tutorial de logica de programação com a plataforma node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icaua/node.git"
+  },
+  "keywords": [
+    "node",
+    "tutorial",
+    "git"
+  ],
+  "author": "Isaac Caua Mourao Da Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icaua/node/issues"
+  },
+  "homepage": "https://github.com/icaua/node#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
