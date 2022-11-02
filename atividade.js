@@ -14,8 +14,10 @@ let imc = peso / (altura * altura)
 console.log(`imc: ${imc.toFixed(2)}`)
 
 if (imc < 18.5) {
-console.log()
+console.log("abixo do peso ")
 
+} else {
+    if 
 }
 
 
