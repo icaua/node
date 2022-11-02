@@ -20,6 +20,6 @@ console.log(`media:${media.toFixed(1)}`)
 //status
 if (media < 5) {
 console.log("aluno reprovado".red)
-}else{
+} else {
     console.log("aluno aprovado".blue)
 }
