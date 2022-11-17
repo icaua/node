@@ -12,6 +12,7 @@ let valorg = Number(read.question("valor da gasolina? "))
 //PROCESSAMENTO
 let cal = valora / valorg
 console.log(cal)
+
 //SAIDA 
 if (cal < 0.71) {
 
