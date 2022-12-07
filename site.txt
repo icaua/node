@@ -1,0 +1,34 @@
+=====================================================================================One Page Site(GAME)=============================================================================================
+Objetivo:
+- Ensinar HTML5, CSS3 e tecnicas de SEO
+- Ensinar passo a passo a desenvolver um site one page do zero até a hospedagem.
+
+Publico alvo:(Necessidade do aluno)
+- Aprender HTML5, CSS3 e tecnicas de SEO
+- Desenvolver seu proprio siter
+- Ganhar dinheiro desenvolvendo site para clientes de pequeno e medio porte 
+
+fontes:
+- Titulo:
+berkshire
+- Conteudo:
+Josefin Sans
+
+cores: 
+#FFFFFF
+#404344
+#8f8e8e
+#665CBE
+#9BC848
+
+IMAGENS :
+- PIXBAY(https://pixabay.com/pt/)
+- PEXELS(https://www.pexels.com/pt-br/)
+- UNSPLASH(https://unsplash.com/)
+- ICONFINDER(https://www.iconfinder.com/)
+
+
+estrutura do site:
+index.html
+style.css
+img
