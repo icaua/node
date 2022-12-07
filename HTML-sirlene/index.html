@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade sirlene </title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<nav class="menu">
+
+<header>
+    <div class="head1">Conversão de Moeda</div>
+</header>
+
+</nav>
+
+
+<script>
+function conversãoMoeda(){
+let valorReal = document.getElementById("valorReal").value;
+console.log(`valor real : ${valorReal}`)
+let valorDolar = (valorReal / 5.36)
+let imposto = valorDolar + (valorDolar * 0.30);
+
+document.getElementById("resultadoDolar").innerHTML = `Valor em dolar: $${valorDolar.toFixed(2)}`
+document.getElementById("resultadoImposto").innerHTML = `Valor com Imposto: $${imposto.toFixed(2)}`
+}
+
+</script>
+<main class="body_sec">   
+<form action="">
+<label for="valorReal">Valor em reais: </label><br>
+<input type="number" id="valorReal" name="valorReal" value="0"><br><br>
+
+
+</form>
+<button onclick="conversãoMoeda()">Converter</button>
+
+<p id="resultadoDolar">valor em Dolar: </p>
+<p id="resultadoImposto"> Valor Com Imposto: </p>
+
+</main>
+
+</body>
+</html>
